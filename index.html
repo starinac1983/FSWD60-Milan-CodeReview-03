@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Milan Starinac">
+	<meta name="keywords" content="HTML,CSS">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<header id="header">
+		<div class="header1">
+			<img src="img/logo.png" alt="Newspaper CF logo" width="200"> 
+		</div>
+		<div class="header2">
+		<a href="https://www.codefactory.wien" title="Link to CodeFactory" target="blank">
+			<img src="img/banner.png" alt="Newspaper CF logo" width="700" id="headerlogo" > 
+		</a>
+		</div>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="index.html" title="Home">Home</a></li>
+			<li><a href="tech.html" title="Team">Team</a></li>
+		</ul>
+	</nav>
+
+	<div id="content">	
+
+	<div class="exception">
+		<p class="exceptiontext">CAR INSURANCE</p>
+	</div>
+
+	<div id="section1">
+		<div class="block1">			
+				<div class="box1">
+					<div class="coverage">
+						<p>Great coverage begins</p>
+						<p>with a custom quote</p>
+					</div>
+						<div class="input">
+						</div class="inputPart">
+							<div class="box3">	
+									<div class="inputpart1">
+										<label for="Yourname:"></label>
+										<input id="yourname"class ="inputfields" value="" placeholder ="Your Name">
+									</div >	
+									
+									</div>
+									<div class="inputpart3">
+										<label for="Age:"></label>
+										<input id="age" class ="inputfields" value="" placeholder ="Age">
+									</div>
+							</div>
+							<div class="box4">
+								<div class="inputpart2">
+									<label for="Your countries"></label>
+									<input id="insurance" class ="inputfields" value="" list="countries" placeholder ="Country">
+										<datalist id="countries">
+											  <option value="Austria">
+											  <option value="Hungary">
+											  <option value="Greece">
+										</datalist>
+
+								<div class="inputpart4">
+									<label for="Horsepower of your car:"></label>
+									<input id="hp" class ="inputfields"type="" value="" placeholder ="Horsepower of your car">	
+								</div>
+						  	</div>
+						  </div>
+						  	<div class="box5">
+								<div class="buttonCalculation">
+									<div class="button">
+										<button onclick="calculateInsurance()" class="button1" > Calculate </button>
+									</div>
+									<div class="CalcText">									
+										<p id="output" class="CalcTextOutput">Printed calculation goes here</p>
+									</div>
+								</div>
+							</div>	
+						</div>
+				</div>
+			
+		</div>
+	</div>	
+
+			<div class="InsStat"> 
+				<div class="InsStat1">
+					<p>Un-complicating car coverage<p>
+				</div>
+				<div class="InsStat2">
+					<p>Understanding your coverage options shouldn´t´be so hard.<br>
+					We´ll guide you through available coverage types,<br>
+					starting with who and what is covered.</p>
+			    </div>
+			
+			</div>
+
+
+	<div id="section2">
+		<div class="block1">
+			<div class="box2">
+				<div class="block3">
+					<div class="offer">
+						<div class="offer1">
+							<p>What comes standard</p>
+						</div>
+						<div class="offer2">
+							<p>The coverage you need</p>
+						</div>
+					</div>
+					<div class="offer">
+						<div class="offer3">
+							<ul>
+								<li>Bodily Injury Liability</li>
+								<li>Property Damage</li>
+								<li>Medical Payments</li>
+							</ul>
+						</div>
+					</div>
+					<div class="offer">
+						<div class="offer4">
+							<p>Benefits</p>
+						</div>
+						<div class="offer5">
+							<p>12-month rate guarantee | 24/7 customer</p>
+							<p>service | Lifetime Repair Guarantee</p>
+						</div>
+					</div>
+				</div>
+				<div class="block4">
+					<div class="offer">
+						<div class="offer1">
+							<p>What comes standard</p>
+						</div>
+						<div class="offer2">
+							<p>The coverage you need</p>
+						</div>
+					</div>
+					<div class="offer">
+						<div class="offer3">
+							<ul>
+								<li>Bodily Injury Liability</li>
+								<li>Property Damage</li>
+								<li>Medical Payments</li>							
+							</ul>
+						</div>
+					</div>
+					<div class="offer">
+						<div class="offer4">
+							<p>Benefits</p>
+						</div>
+						<div class="offer5">
+							<p>12-month rate guarantee | 24/7 customer</p>
+							<p>service | Lifetime Repair Guarantee</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+	<footer> 
+		<div class="navfooter">
+			<ul>
+				<li><a href="index.html" title="HOME">Home</a></li>
+				<li><a href="tech.html" title="Tech">Team</a></li>
+			</ul>			
+		</div>
+		<div class="logofooter">
+			<img src="img/logo-inv.png" alt="Newspaper CF logo" height="50">
+		</div>
+		<div class="copyfooter">
+			<p> Milan - CodeFactory 2018 </p>
+		</div>
+	</footer>
+<script src="js/Calculation.js">
+	
+</script>
+</body>
+</html>
